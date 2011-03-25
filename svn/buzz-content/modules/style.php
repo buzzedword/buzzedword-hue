@@ -1,0 +1,9 @@
+<?php
+echo ((html5 == true) ? '<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/themes/base/jquery-ui.css" />' . "\n" : '<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/themes/base/jquery-ui.css" />' . "\n");
+echo ((html5 == true) ? '<link rel="stylesheet" href="' . themes . 'humanity/jquery-ui-1.8.4.custom.css" />' . "\n" : '<link rel="stylesheet" type="text/css" href="' . themes . 'humanity/jquery-ui-1.8.4.custom.css" />' . "\n");
+echo ((html5 == true) ? '<link rel="stylesheet" href="' . approot . 'css/resets.css" />' . "\n" : '<link rel="stylesheet" type="text/css" href="' . approot . 'css/resets.css" />' . "\n");
+echo ((html5 == true) ? '<link rel="stylesheet" href="http://960ls.atomidata.com/static/cssserve/6/3/4/3/8/63438.css" />' . "\n" : '<link rel="stylesheet" type="text/css" href="http://960ls.atomidata.com/static/cssserve/6/3/4/3/8/63438.css" />' . "\n");
+echo ((html5 == true) ? '<link rel="stylesheet" href="http://yui.yahooapis.com/2.8.1/build/fonts/fonts-min.css" />' . "\n" : '<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.1/build/fonts/fonts-min.css" />' . "\n");
+echo ((html5 == true) ? '<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />' . "\n" : '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster" />' . "\n");
+echo ((html5 == true) ? '<link rel="stylesheet" href="' . approot . 'css/source.css" />' . "\n" : '<link rel="stylesheet" type="text/css" href="' . approot . 'css/source.css" />' . "\n");
+?>
